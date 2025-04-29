@@ -5,11 +5,6 @@
 # internos para realizar várias ações.
 # Por convenção, usamos PascalCase para nomes de
 # classes.
-'''
-string = 'gabriel'
-print(string.upper())
-print(isinstance(string, str))
-'''
 class Pessoa:
     def __init__(self, nome, sobrenome):
         self.nome = nome
