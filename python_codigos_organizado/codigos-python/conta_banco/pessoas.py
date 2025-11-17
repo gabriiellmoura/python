@@ -37,3 +37,8 @@ if __name__ == '__main__':
     cliente01.conta = contas.ContaCorrente(111, 222, 0, 0)
     print(cliente01)
     print(cliente01.conta)
+
+    cliente02 = Cliente('jose', 32)
+    cliente02.conta = contas.ContaPoupanca(112, 223, 0)
+    print(cliente02)
+    print(cliente02.conta)
