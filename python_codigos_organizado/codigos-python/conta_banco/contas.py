@@ -36,6 +36,7 @@ class ContaCorrente(Conta):
         self.limite = limite
 
 
+'''
 if __name__ == '__main__':
     conta_poupanca01 = ContaPoupanca(111, 222)
     conta_poupanca01.depositar(10)
@@ -44,3 +45,4 @@ if __name__ == '__main__':
     conta_corrente01 = ContaPoupanca(111, 222)
     conta_corrente01.depositar(10)
     conta_corrente01.sacar(5)
+'''
